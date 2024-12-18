@@ -4,7 +4,6 @@ import csv
 import openpyxl
 
 def upload_excel_controller():
- # ===> Upload file
     ALLOWED_EXTENSIONS = {"xlsx"}
 
     def allowed_file(filename):
